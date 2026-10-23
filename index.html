@@ -177,5 +177,24 @@
 
     <button type="submit">Buscar en Wikipedia</button>
 </form>
+<h2>Buscar una ciudad en el mapa</h2>
+
+<form action="https://www.openstreetmap.org/search" method="get">
+    <label for="query">Elige una ciudad:</label>
+
+    <select id="query" name="query">
+        <optgroup label="Alicante">
+            <option value="Alicante">Alicante</option>
+            <option value="Elche">Elche</option>
+        </optgroup>
+
+        <optgroup label="Valencia">
+            <option value="Valencia">Valencia</option>
+            <option value="Gandia">Gandia</option>
+        </optgroup>
+    </select>
+
+    <button type="submit">Buscar en el mapa</button>
+</form>
 </body>
 </html>
